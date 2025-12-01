@@ -6,8 +6,9 @@ The goal was to rebuild the layout using React with clean, reusable components a
 ---
 
 ## Live Demo / Repo
-- GitHub Repository: [-----------------]
-- Live Demo : [-------------------------]
+- GitHub Repository: [https://github.com/dalia3bdallah/vehicle-details-page]
+
+- Live Demo : [https://dalia3bdallah.github.io/vehicle-details-page/]
 
 ---
 

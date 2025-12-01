@@ -1,4 +1,5 @@
 import "./istmara.css"
+import file from "/src/assets/imgs/file.png"
 
 export default function Istmara() {
     return (
@@ -23,7 +24,7 @@ export default function Istmara() {
                                 <div className="view-link"><button className="view-button underline">View</button></div>
                             </div>
                             <div className="view-icon">
-                                <img src="/src/assets/imgs/file.png" alt="Download Icon" className="download-icon" />
+                                <img src={file} alt="Download Icon" className="download-icon" />
                             </div>
                         </div>
                     </div>

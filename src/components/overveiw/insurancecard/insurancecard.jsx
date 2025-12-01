@@ -1,4 +1,5 @@
 import "./insurancecard.css";
+import Rajhi from "/src/assets/imgs/Rajhi.webp";
 
 export default function InsuranceCard() {
     return (
@@ -9,7 +10,7 @@ export default function InsuranceCard() {
                     <div className="ins-title">Insurance Card</div>
                 </div>
                 <div className="insurance-image">
-                    <img src="/src/assets/imgs/Rajhi.webp" alt="Insurance Card" />
+                    <img src={Rajhi} alt="Insurance Card" />
                 </div>
             </div>
 

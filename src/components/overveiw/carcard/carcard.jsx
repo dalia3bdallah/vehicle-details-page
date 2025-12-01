@@ -1,10 +1,11 @@
 import "./carcard.css"
+import carImage from "/src/assets/imgs/car.avif"
 
 export default function CarCard() {
     return (
         <div className="car-card">
             <div className="car-image">
-                <img src="/src/assets/imgs/car.avif" alt="Car" />
+                <img src={carImage} alt="Car" />
             </div>
             <div>
                 <div className="v-card-title">Vehicle Details</div>

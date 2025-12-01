@@ -1,5 +1,6 @@
 
 import "./vtopdetails.css";
+import driverAvatar from "/src/assets/imgs/2.avif";
 
 export default function VTopDetails() {
 
@@ -36,7 +37,7 @@ export default function VTopDetails() {
                     <div className="driver-info-card">
                         <div className="row-p ">
                             <div className="driver-img">
-                                <img src="./src/assets/imgs/2.avif" alt="driver-avatar" className="driver-avatar" />
+                                <img src={driverAvatar} alt="driver-avatar" className="driver-avatar" />
                             </div>
                             <div className="driver-details">
                                 <div className="driver-name">Abdallah Bin Nasser</div>

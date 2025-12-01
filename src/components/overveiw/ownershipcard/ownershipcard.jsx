@@ -1,4 +1,5 @@
 import "./ownershipcard.css"
+import file from "/src/assets/imgs/file.png"
 
 export default function OwnershipCard() {
     return (
@@ -22,7 +23,7 @@ export default function OwnershipCard() {
                                 <div className="view-link"><button className="view-button underline">View</button></div>
                             </div>
                             <div className="view-icon">
-                                <img src="/src/assets/imgs/file.png" alt="Download Icon" className="download-icon" />
+                                <img src={file} alt="Download Icon" className="download-icon" />
                             </div>
                         </div>
                     </div>

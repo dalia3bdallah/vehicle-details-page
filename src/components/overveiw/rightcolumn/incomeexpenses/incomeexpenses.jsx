@@ -1,4 +1,5 @@
 import ColumnBasic from "./chartincomeexpenses"
+import SaudiRiyalSymbol21 from "/src/assets/imgs/Vehicles/Saudi_Riyal_Symbol-21.svg"
 
 import "./incomeexpenses.css"
 
@@ -21,7 +22,7 @@ export default function IncomeExpenses() {
                     <div className="block-info">
                             <div className="block-label">Avg. Monthly Revenue</div>
                             <div className="block-value">
-                                <span><img className="rs-icon" src="/src/assets/imgs/Vehicles/Saudi_Riyal_Symbol-21.svg" /></span>
+                                <span><img className="rs-icon" src={SaudiRiyalSymbol21} /></span>
                                 <span className="amount">250.235 </span>
                             </div>
                             </div>
@@ -30,7 +31,7 @@ export default function IncomeExpenses() {
                     <div className="block-info">
                             <div className="block-label">Avg. Monthly Expencses</div>
                             <div className="block-value">
-                                <span><img className="rs-icon" src="/src/assets/imgs/Vehicles/Saudi_Riyal_Symbol-21.svg" /></span>
+                                <span><img className="rs-icon" src={SaudiRiyalSymbol21} /></span>
                                 <span className="amount">250.235 </span>
                             </div>
                             </div>
