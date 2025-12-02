@@ -18,7 +18,9 @@
 /* .tab-item.active a {
     border-bottom: 2px solid #000;
 } */
-.tab-item a.active {
+
+.tab-item a.active,
+a.tab.active-tab {
     border-bottom: 2px solid #000;
     background: #faf8f478;
 }
