@@ -18,6 +18,15 @@ The goal was to rebuild the layout using React with clean, reusable components a
 - Dummy data
 
 ---
+##Setup instructions / how to work
+1-install dependancies 
+>> npm install
+
+2- open page : 
+>> npm run dev
+
+---------
+
 
 ## 📁 Folder Structure & Component Breakdown
 src/
