@@ -13,8 +13,12 @@ The goal was to rebuild the layout using React with clean, reusable components a
 ---
 
 ## 📦 Tech Stack
-- **React**
-- **react-router-dom** (for tab navigation)
+- React
+- vite
+- JavaScript 
+- Tailwindcss
+- react-router-dom** (for tab navigation)
+- Apexcharts - Bar chart
 - Dummy data
 
 ---
@@ -24,6 +28,7 @@ The goal was to rebuild the layout using React with clean, reusable components a
 
 2- open page : 
 >> npm run dev
+
 
 ---------
 
